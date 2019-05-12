@@ -1,7 +1,5 @@
 var mongoose = require('mongoose');
-//no idea what url... maybe try fetcher
 mongoose.connect('mongodb://localhost/fetcher');
-
 var Schema = mongoose.Schema
 
 let cowSchema = new Schema({

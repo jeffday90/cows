@@ -34,8 +34,6 @@ app.get('/cows', function (req, res) {
       console.log(err)
     } else{
       console.log('this is in results of get inside server file:', results)
-      //res.writeHead()
-      //how to send this shit back up!!!
       res.send(results);
     }
   });
